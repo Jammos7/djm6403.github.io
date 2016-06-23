@@ -1,43 +1,106 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+header {
+  padding: 20px 0;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
 }
-a:hover {
-    text-decoration: underline;
+
+header nav, footer nav {
+  display: flex;
+  justify-content: flex-end;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+header p, header a, footer a {
+  padding: 20px 20px;
+  margin: 0;
+  background-color:#ffffff;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+header a:hover, footer a:hover {
+  background-color:#eeeeee;
 }
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/13344758_10154173663260429_1223698934618465106_n.jpg?oh=968f7ca1c13a12752fa5a1646bfbd353&oe=5801C860');
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-4 {
+  text-align:center;
+  margin: 30px 0 30px 0;
+}
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  font-size: 12px;
+  padding: 20px 0;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
 }
 
-ul.posts li {
-    list-style: none;
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
