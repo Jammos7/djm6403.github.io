@@ -1,16 +1,21 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  width: 100%;
+  background-color: #eeeeee !important;
 }
 
 header {
   padding: 20px 0;
+  font-family: "Georgia", serif;
 }
+
 
 header .row,
 footer .row {
   display: flex;
   align-items: center;
+  
 }
 
 header h1 {
@@ -23,13 +28,20 @@ header nav, footer nav {
   justify-content: flex-end;
 }
 
+p {
+  color: #aaaaaa;
+  font-size: 1em;
+}
+
 header p, header a, footer a {
   padding: 20px 20px;
   margin: 0;
-  background-color:#ffffff;
+  background-color: inherit;
+  color: inherit;
 }
+
 header a:hover, footer a:hover {
-  background-color:#eeeeee;
+  color: inherit;
 }
 
 .jumbotron {
