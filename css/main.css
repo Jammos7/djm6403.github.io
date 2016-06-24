@@ -47,7 +47,7 @@ header a:hover, footer a:hover {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/13344758_10154173663260429_1223698934618465106_n.jpg?oh=968f7ca1c13a12752fa5a1646bfbd353&oe=5801C860');
+  background-image: url('jumbotron.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
