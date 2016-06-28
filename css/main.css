@@ -10,12 +10,10 @@ header {
   font-family: "Georgia", serif;
 }
 
-
 header .row,
 footer .row {
   display: flex;
   align-items: center;
-  
 }
 
 header h1 {
@@ -23,7 +21,8 @@ header h1 {
   margin: 0;
 }
 
-header nav, footer nav {
+header nav,
+footer nav {
   display: flex;
   justify-content: flex-end;
 }
@@ -33,14 +32,17 @@ p {
   font-size: 1em;
 }
 
-header p, header a, footer a {
+header p,
+header a,
+footer a {
   padding: 20px 20px;
   margin: 0;
   background-color: inherit;
   color: inherit;
 }
 
-header a:hover, footer a:hover {
+header a:hover,
+footer a:hover {
   color: inherit;
 }
 
@@ -72,9 +74,10 @@ section .row img {
 }
 
 .col-md-4 {
-  text-align:center;
+  text-align: center;
   margin: 30px 0 30px 0;
 }
+
 .col-md-6 {
   margin: 0 0 30px;
 }
@@ -94,7 +97,7 @@ section .row img {
 
 .btn-secondary {
   background-color: #E8DFE0;
-  color: #aaaaaa;
+  color: #ffffff;
   margin: 0 0 30px;
 }
 
@@ -108,8 +111,15 @@ footer .col-sm-8 {
   justify-content: flex-end;
 }
 
-footer ul {
+ul {
   list-style: none;
+}
+
+ul li img {
+  cursor: pointer;
+  width: 200px;
+  height: 150px;
+  margin: 0 20px 20px 0;
 }
 
 footer li img {
