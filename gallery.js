@@ -11,4 +11,4 @@ $(document).ready(function(){
             $('#myModal .modal-body').html('');
         });
    });
-})
+});
